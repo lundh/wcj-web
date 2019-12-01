@@ -1,0 +1,13 @@
+---
+layout: default
+title: Blog
+---
+<h1>Evenemang</h1>
+
+<ul>
+  {% assign events = site.events | sort: 'start_date' %}
+  {% for event in events %}
+      <h2><a href="{{ post.url }}">{{ event.title }}</a></h2>
+      <p>{{ post.content | markdownify }}</p>
+  {% endfor %}
+</ul>

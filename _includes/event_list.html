@@ -2,7 +2,7 @@
   {% for event in site.events %}
     <li>
       <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
-      <p>{{ event.content }}</p>
+      <p>{{ event.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{ event.name }}</h1>
-<p>{{ event.start_date | date_to_string }}</p>
+<h1>{{ .name }}</h1>
+<p>{{ .start_date | date_to_string }}</p>
 
-{{ event.content | markdownify }}
+{{ .content | markdownify }}

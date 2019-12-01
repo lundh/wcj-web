@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Om föreningen
 ---
 # About page
 

@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: About
+- name: Om
   link: /about.html
 - name: Evenemang
   link: /events.html

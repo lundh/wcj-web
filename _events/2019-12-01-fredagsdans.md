@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: event
 name: Fredagsdans
 event_date: 2019-12-06T18:00:00.000Z
 ---

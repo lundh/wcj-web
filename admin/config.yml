@@ -27,7 +27,7 @@ collections:
       preview: false
     identifier_field: name
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Event Date', name: 'event_date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

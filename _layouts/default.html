@@ -10,10 +10,6 @@
   <body>
     {% include navigation.html %}
     {{ content }}
-    <h1>Anmälan i Swingweb</h1>
-    {% include swingweb_events.html %}
-    <h1>Medlemskap</h1>
-    {% include swingweb_medlemskap.html %}
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {

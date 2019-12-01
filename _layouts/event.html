@@ -4,4 +4,4 @@ layout: default
 <h1>{{ event.name }}</h1>
 <p>{{ event.start_date | date_to_string }}</p>
 
-{{ content }}
+{{ event.content | markdownify }}

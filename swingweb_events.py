@@ -13,7 +13,7 @@ args = parser.parse_args()
 # events = event_response.read()
 
 #tree = ET.fromstring(events)
-tree = ET.parse('events.xml')
+tree = ET.parse('../events.xml')
 root = tree.getroot()
 
 # print root.tag

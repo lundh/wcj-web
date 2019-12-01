@@ -1,0 +1,8 @@
+<ul>
+  {% for event in events %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.name }}</a></h3>
+      <p>{{ post.content }}</p>
+    </li>
+  {% endfor %}
+</ul>

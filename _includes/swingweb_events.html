@@ -1,0 +1,10 @@
+<ul>
+{% assign events = site.data.swingweb_events | where_exp:"item","item.category != 'Medlemskap'" %}
+{% for event in events %}
+  <li>
+    <a href="{{ event.source }}">
+      {{ event.title }}
+    </a> - {{ event.category }}
+  </li>
+{% endfor %}
+</ul>

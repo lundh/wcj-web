@@ -6,7 +6,7 @@ title: Blog
 
 <ul>
   {% asign posts = site.posts | sort: 'date' | reverse %}
-  {% for post in postd %}
+  {% for post in post %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>

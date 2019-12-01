@@ -6,6 +6,6 @@ title: Blog
 
 
 {% for event in site.events %}
-<h2><a href="{{ post.url }}">{{ event.title }}</a></h2>
+<h2><a href="{{ post.url }}">{{ event.name }}</a></h2>
 <p>{{ post.content | markdownify }}</p>
 {% endfor %}

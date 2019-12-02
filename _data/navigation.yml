@@ -2,6 +2,8 @@
   link: /
 - name: Om
   link: /about.html
+- name: Kurs och anmälan
+  link: /signup.html
 - name: Evenemang
   link: /events.html
 - name: Blog

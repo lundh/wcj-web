@@ -1,278 +1,393 @@
 [
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/98002",
         "title": "Swingin' Spring - Beginner"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/97996",
         "title": "Swingin' Spring - Improver"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/97997",
         "title": "Swingin' Spring - Intermediate"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/96006",
         "title": "Swingin' Spring - Higher Levels with Audition"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/97998",
         "title": "Swingin' Spring - Jazz Lower"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/97999",
         "title": "Swingin' Spring - Jazz Higher"
     },
     {
         "category": "Swingin' Spring",
+        "category_id": "4531",
+        "kind": "Swing Fun",
         "source": "https://dans.se/event/98000",
         "title": "Swingin' Spring - Party pass"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93292",
         "title": "Medelavancerad Koreografikurs"
     },
     {
+        "category": "\u00d6vrigt",
+        "category_id": 9999,
+        "kind": "\u00d6vrigt",
         "source": "https://dans.se/event/96012",
         "title": "Aktivautbildning"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93126",
         "title": "Grundkurs (Sep)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93127",
         "title": "Grundkurs (alla f\u00f6r, alla f\u00f6ljer)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93128",
         "title": "Grundkurs (Nov)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93129",
         "title": "Forts\u00e4ttningskurs A (Sep)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93130",
         "title": "Forts\u00e4ttningskurs A (Nov)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93135",
         "title": "Forts\u00e4ttningskurs B (Okt)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93133",
         "title": "Medelkurs (Sep)"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93134",
         "title": "Medelkurs (Okt) - Kill your darlings"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93205",
         "title": "Medelkurs (Nov) - Fokus Rytmer"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93210",
         "title": "Avancerad Lindy Hop"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93294",
         "title": "Medelavancerad Helgtemakurs"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/93293",
         "title": "Medelavancerad Temakurs"
     },
     {
         "category": "Boogie Woogie",
+        "category_id": "4524",
+        "kind": "Boogie Woogie",
         "source": "https://dans.se/event/93295",
         "title": "Boogie Woogie Medelkurs"
     },
     {
         "category": "Boogie Woogie",
+        "category_id": "4524",
+        "kind": "Boogie Woogie",
         "source": "https://dans.se/event/93290",
         "title": "Boogie Woogie FK(B) - Intensivhelg"
     },
     {
         "category": "Boogie Woogie",
+        "category_id": "4524",
+        "kind": "Boogie Woogie",
         "source": "https://dans.se/event/93289",
         "title": "Boogie Woogie Grundkurs f\u00f6r Erfarna Lindydansare"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93187",
         "title": "Balboa Grundkurs"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93188",
         "title": "Balboa Forts\u00e4ttningskurs 1"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93195",
         "title": "Balboa Forts\u00e4ttningskurs 2"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93194",
         "title": "Balboa Medelavancerad kurs"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93208",
         "title": "Balboa Medelkurs"
     },
     {
         "category": "Balboa",
+        "category_id": "4525",
+        "kind": "Balboa",
         "source": "https://dans.se/event/93209",
         "title": "Pure-Bal (Medelniv\u00e5)"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93284",
         "title": "Blues Baskurs"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93375",
         "title": "Soloblues Baskurs"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93283",
         "title": "Blues Baskurs (b\u00e5da roller)"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93329",
         "title": "Blues Forts\u00e4ttningskurs"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93296",
         "title": "Switch Introduktionskurs"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93320",
         "title": "Blues Medelkurs"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93374",
         "title": "Ballroomin\u00b4 Blues"
     },
     {
         "category": "Bluesdans",
+        "category_id": "4526",
+        "kind": "Bluesdans",
         "source": "https://dans.se/event/93351",
         "title": "Blueskoreografi f\u00f6r Avancerade dansare"
     },
     {
         "category": "Autentisk Jazz",
+        "category_id": "4528",
+        "kind": "Authentic Jazz",
         "source": "https://dans.se/event/93160",
         "title": "Shim Sham"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/91122",
         "title": "QLF 19 - Party"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/91113",
         "title": "QLF 19 - Intermediate/Advanced"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/89752",
         "title": "QLF 19 - Beginner Badger Track"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/91786",
         "title": "QLF 19 - FRONT PAGE"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/91111",
         "title": "QLF 19 - Intermediate"
     },
     {
         "category": "Queer Lindy Festival",
+        "category_id": "4530",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/89759",
         "title": "QLF 19 - Focus on your second role"
     },
     {
         "category": "Stepp",
+        "category_id": "4529",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93213",
         "title": "Stepp Grundkurs (A)"
     },
     {
         "category": "Stepp",
+        "category_id": "4529",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93214",
         "title": "Stepp Grundkurs (B)"
     },
     {
         "category": "Stepp",
+        "category_id": "4529",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93215",
         "title": "Stepp Forts\u00e4ttning (B)"
     },
     {
         "category": "Stepp",
+        "category_id": "4529",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93216",
         "title": "Tap Wings and Pullbacks"
     },
     {
         "category": "Tap Weekend",
+        "category_id": "4580",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93172",
         "title": "GBG Tap Weekend 2019"
     },
     {
         "category": "Stepp",
+        "category_id": "4529",
+        "kind": "Stepp",
         "source": "https://dans.se/event/93288",
         "title": "Stepp Medelkurs"
     },
     {
         "category": "Tap Weekend",
+        "category_id": "4580",
+        "kind": "Stepp",
         "source": "https://dans.se/event/98189",
         "title": "Tap weekend: Saturday Night Live Band Jam & Show"
     },
     {
+        "category": "\u00d6vrigt",
+        "category_id": 9999,
+        "kind": "\u00d6vrigt",
         "source": "https://dans.se/event/99482",
         "title": "Julfest"
     },
     {
+        "category": "\u00d6vrigt",
+        "category_id": 9999,
+        "kind": "Medlemskap",
         "source": "https://dans.se/event/93671",
         "title": "Endast medlemskap - HT2019-VT2020"
     },
     {
         "category": "Lindy Hop",
+        "category_id": "4522",
+        "kind": "Lindy Hop",
         "source": "https://dans.se/event/53073",
         "title": "Gl\u00f6m inte bort att anm\u00e4la dig till Swingin' Spring! Vad \u00e4r SIS?"
     },
     {
         "category": "Autentisk Jazz",
+        "category_id": "4528",
+        "kind": "Authentic Jazz",
         "source": "https://dans.se/event/93377",
         "title": "Solojazz Rudiments M/MA"
     }

@@ -1,5 +1,5 @@
 <ul>
-{% assign medlemskap_list = site.data.swingweb_events | where:"category","Medlemskap" %}
+{% assign medlemskap_list = site.data.swingweb_events | where:"kind","Medlemskap" %}
 {% for medlemskap in medlemskap_list %}
   <li>
     <a href="{{ event.source }}">

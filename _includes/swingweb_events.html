@@ -1,9 +1,9 @@
 <ul>
-{% assign events = site.data.swingweb_events | where_exp:"item","item.category != 'Medlemskap'" %}
-{% assign grouped = events | group_by: "category" %}
+{% assign events = site.data.swingweb_events | where_exp:"item","item.kind != 'Medlemskap'" %}
+{% assign grouped = events | sort: "category_id" | group_by: "category_id" %}
 
 {% for category in grouped %}
-<li>{{ category.name }}
+<li>{{ category.items[0].category }}
   <ul>
   {% for event in category.items %}
     <li>

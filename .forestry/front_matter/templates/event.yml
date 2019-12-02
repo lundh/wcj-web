@@ -19,4 +19,5 @@ fields:
     required: false
   label: swingweb
 pages:
+- _events/Swingin Spring 2020.md
 - _events/thedans.md

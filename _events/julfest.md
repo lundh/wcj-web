@@ -1,6 +1,7 @@
 ---
 layout: event
 name: Julfest 2019
-event_date: 2019-12-01T18:21:33.721Z
+event_date: 2019-12-13 18:21:33 +0000
+
 ---
 Ont och gott med Gentlemen & Gangsters

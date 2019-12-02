@@ -5,9 +5,9 @@
 
 {% if events.size != 0 %}
 {% assign sorted = events | sort: "sort_key" %}
-<div class="card border-secondary mb-3"> 
+<div class="card border-secondary mb-3">
+  <div class="card-header">Anmälan - {{events[0].category}}</div>
   <div class="card-body">
-    <h5 class="card-title">Anmälan</h5>
     <ul>
       {% for event in sorted %}
       <li>

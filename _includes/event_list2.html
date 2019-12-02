@@ -1,0 +1,9 @@
+<ul>
+{% assign filtered = site.events | where_exp:"item","item.event_date > now" %}
+{% assign sorted = site.events | sort: "event_date" %}
+{% for event in sorted limit:3 %}
+  <li><h5 class="card-title"><a href="{{ event.url }}">{{ event.name }}</a></h5>
+    <p>{{ event.event_date | date: "%e %B %Y kl. %k:%M" }}</p>
+  </li>
+{% endfor %}
+</ul>

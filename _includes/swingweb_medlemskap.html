@@ -1,7 +1,7 @@
 {% assign medlemskap_list = site.data.swingweb_events | where:"kind","Medlemskap" %}
 {% for medlemskap in medlemskap_list %}
 <div class="card text-white bg-light mb-3">
-  <div class="card-body">
+  <div class="card-body text-center">
     <h5><a href="{{ medlemskap.source }}">
       {{ medlemskap.title }}
     </a></h5>

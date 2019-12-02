@@ -11,3 +11,5 @@ fields:
 - type: datetime
   name: event_date
   label: event_date
+pages:
+- _events/thedans.md

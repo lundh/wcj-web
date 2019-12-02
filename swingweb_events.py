@@ -30,7 +30,7 @@ for child in root:
                     event_data["title"] = event_details.text
                 elif event_details.tag == "source":
                     event_data["source"] = event_details.text
-                elif event_details.tag == "category":
+                elif event_details.tag == "primaryEventGroup":
                     event_data["category"] = event_details.text
 
             if any(event_data):

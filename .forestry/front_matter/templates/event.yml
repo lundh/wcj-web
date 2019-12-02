@@ -1,0 +1,13 @@
+---
+label: Event
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: name
+  label: name
+- type: datetime
+  name: event_date
+  label: event_date

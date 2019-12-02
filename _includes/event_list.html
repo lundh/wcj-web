@@ -1,10 +1,11 @@
-<ul>
-  {% assign filtered = site.events | where_exp:"item","item.event_date > now" %}
-  {% assign sorted = site.events | sort: "event_date" %}
-  {% for event in sorted limit:3 %}
-    <li>
-      <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
-      <p>{{ event.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% assign filtered = site.events | where_exp:"item","item.event_date > now" %}
+{% assign sorted = site.events | sort: "event_date" %}
+{% for event in sorted limit:3 %}
+<div class="card border-secondary mb-3">
+  <div class="card-header">{{ event.event_date | date: "%A, %e %B %Y kl. %k:%M" }}</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title"><a href="{{ event.url }}">{{ event.name }}</a></h5>
+      <p class="card-text">{{ event.content | markdownify }}</p>
+  </div>
+</div>
+{% endfor %}

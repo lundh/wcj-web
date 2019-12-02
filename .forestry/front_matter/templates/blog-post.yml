@@ -5,8 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
-  default: blog
-  hidden: true
+  default: post
+  hidden: false
 - type: text
   name: title
   label: Title

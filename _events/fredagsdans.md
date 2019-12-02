@@ -1,7 +1,7 @@
 ---
 layout: event
 name: Fredagsdans
-event_date: 2019-12-06T18:00:00.000+00:00
+event_date: 2020-04-10 19:00:00 +0200
 
 ---
 Dans på en fredag!

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Evenemang</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand" href="/">WCJ</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+     <div class="navbar-nav">
+       
+       <a class="nav-item nav-link " href="/" >Home</a>
+       
+       <a class="nav-item nav-link " href="/about.html" >Om</a>
+       
+       <a class="nav-item nav-link " href="/signup.html" >Kurs och anmälan</a>
+       
+       <a class="nav-item nav-link active" href="/events.html" >Evenemang</a>
+       
+       <a class="nav-item nav-link " href="/blog.html" >Blog</a>
+       
+     </div>
+   </div>
+</nav>
+    <h1>Evenemang</h1>
+
+<ul>
+  
+  <li><h2><a href="/events/2019-12-01-fredagsdans.html">Fredagsdans</a></h2>
+  <p><p>Dans på en fredag!</p>
+</p>
+  </li>
+  
+  <li><h2><a href="/events/julfest.html">Julfest 2019</a></h2>
+  <p><p>Ont och gott med Gentlemen &amp; Gangsters</p>
+</p>
+  </li>
+  
+</ul>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

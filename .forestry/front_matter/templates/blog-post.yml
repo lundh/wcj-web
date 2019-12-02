@@ -5,9 +5,12 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: blog
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
+  description: When to publish the blog post

@@ -1,0 +1,21 @@
+{% assign events = site.data.swingweb_events | where_exp:"item","item.category == include.content" %}
+{% if events.size == 0 %}
+{% assign events = site.data.swingweb_events | where_exp:"item","item.title contains include.content" %}
+{% endif %}
+
+{% if events.size != 0 %}
+{% assign sorted = events | sort: "sort_key" %}
+<div class="card border-secondary mb-3"> 
+  <div class="card-body">
+    <h5 class="card-title">Anmälan</h5>
+    <ul>
+      {% for event in sorted %}
+      <li>
+        <a href="{{ event.source }}">
+          {{ event.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}

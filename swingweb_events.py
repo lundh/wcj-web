@@ -35,6 +35,9 @@ for child in root:
                     event_data["category_id"] = event_details.attrib['itemId']
                 elif event_details.tag == "category":
                     event_data["kind"] = event_details.text
+                elif event_details.tag == "sorting":
+                    event_data["sort_key"] = event_details.text
+                   
 
             if any(event_data):
                 if "category_id" not in event_data:

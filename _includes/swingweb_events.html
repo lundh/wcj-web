@@ -1,11 +1,12 @@
-<ul>
 {% assign events = site.data.swingweb_events | where_exp:"item","item.kind != 'Medlemskap'" %}
 {% assign grouped = events | sort: "category_id" | group_by: "category_id" %}
 
 {% for category in grouped %}
-<li>{{ category.items[0].category }}
+<div>
+  <h3>{{ category.items[0].category }}</h3>
   <ul>
-  {% for event in category.items %}
+  {% assign sorted = category.items | sort: "sort_key" %}
+  {% for event in sorted %}
     <li>
       <a href="{{ event.source }}">
         {{ event.title }}
@@ -14,6 +15,5 @@
   {% endfor %}
   </ul>
 {% endfor %}
-</ul>
-
+</div>
 

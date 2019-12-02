@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>West Coast Jitterbugs</title>
   </head>
   <body>
@@ -29,13 +28,13 @@
      </div>
    </div>
 </nav>
+    <div class="container-fluid">
     <h1>West Coast Jitterbugs</h1>
-    Välkommen till ett test
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h2>Evenemang</h2>
-      <ul>
+<p>    Välkommen till ett test</p>
+<div class="row">
+  <div class="col-sm">
+    <h2>Evenemang</h2>
+    <ul>
   
     <li>
       <h3><a href="/events/2019-12-01-fredagsdans.html">Fredagsdans</a></h3>
@@ -50,22 +49,21 @@
     </li>
   
 </ul>
-    </div>
-    <div class="col-sm">
-      <h2>Medlemskap</h2>
-      <ul>
+  </div>
+  <div class="col-sm">
+    <h2>Medlemskap</h2>
+    
 
-
-  <li>
-    <a href="">
+<div class="card text-white bg-light mb-3">
+  <div class="card-body">
+    <h5><a href="https://dans.se/event/93671">
       Endast medlemskap - HT2019-VT2020
-    </a>
-  </li>
+    </a></h5>
+  </div>
+</div>
 
-</ul>
-
-      <h2>Nyheter</h2>
-      <ul>
+    <h2>Nyheter</h2>
+    <ul>
   
   
     <li>
@@ -82,9 +80,9 @@ of large herbaceous flowering plants in the genus Musa.</p>
     </li>
   
 </ul>
-    </div>
   </div>
 </div>
+    </div>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {

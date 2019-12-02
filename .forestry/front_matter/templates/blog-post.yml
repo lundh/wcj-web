@@ -14,3 +14,5 @@ fields:
   name: date
   label: Date
   description: When to publish the blog post
+pages:
+- _posts/forestry.md

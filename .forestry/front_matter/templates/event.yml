@@ -1,6 +1,6 @@
 ---
 label: Event
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: layout
@@ -13,5 +13,10 @@ fields:
 - type: datetime
   name: event_date
   label: event_date
+- name: swingweb
+  type: text
+  config:
+    required: false
+  label: swingweb
 pages:
 - _events/thedans.md

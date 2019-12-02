@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: event
+  hidden: true
 - type: text
   name: name
   label: name
